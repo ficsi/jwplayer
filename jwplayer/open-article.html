@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Open Article</title>
+</head>
+<body>
+
+<script src="js/player-init-single-video.js"></script>
+<script>
+
+    var singleVideoPlayer = new JwPlayer(
+        document.getElementById('player-wrapper'),
+        {
+            sources: [
+                {
+                    file: 'https://img2.novini.bg/uploads/video/2020-11/00026609.mp4',
+                    label: 'HD',
+                },
+                {
+                    file: 'https://img2.novini.bg/uploads/video/2020-11/00026609.mp4',
+                    label: '480p',
+                },
+                {
+                    file: 'https://img2.novini.bg/uploads/video/2020-11/00026609.mp4',
+                    label: 'SD',
+                }
+            ],
+            image: 'https://img2.novini.bg/uploads/videos_pictures/2020-11/big/26607.jpg',
+        },
+        "",
+        false,
+        false,
+        {
+            url: "",
+            param: "videoID",
+            one: true
+        }
+    ).init()
+</script>
+</body>
+</html>
