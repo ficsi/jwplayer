@@ -9,7 +9,11 @@ class JwPlayerCorp {
         this.videoId = '';
         this.statisticsUrl = '';
         this.isFloating = true;
-
+        this.isMethodCalled = false;
+        this.defaultSkin = {
+            name: "alaska",
+            url: "./css/single-page-video.css"
+        }
     }
 
 
@@ -80,16 +84,13 @@ class JwPlayerCorp {
         jwplayer(document.querySelector('#' + this.checkPageVideo()).getAttribute('id')).setup({
             playlist: self.playlist,
             videoID: self.videoId,
-            skin: {
-                name: "alaska",
-                url: "./css/single-page-video.css"
-            },
+            skin: self.defaultSkin,
             controls: true,
             autostart: self.autostart,
             floating: self.isFloating,
             mute: self.mute,
             visualplaylist: true,
-            displaytitle: false,
+            // displaytitle: false,
             related: {
                 displayMode: "shelf",
                 autoplaytimer: 0,
@@ -207,13 +208,45 @@ class JwPlayerCorp {
 
     }
 
-    disableFloating(){
+    disableFloating() {
         var me = this;
-        if(me.isFloating){
+        if (me.isFloating) {
             me.isFloating = false;
         }
     }
 
+    setPlayerType(type) {
+        var me = this;
+        me.isMethodCalled = true;
+        switch (type) {
+            case "player_x3":
+                var embedSkin = {
+                    name: "x3_skin",
+                    url: 'x3.css'
+                };
+                me.defaultSkin = embedSkin;
+                break;
+            case "embed":
+
+                var embedSkin = {
+                    name: "embed_skin",
+                    url: 'embed.css'
+                };
+                me.defaultSkin = embedSkin;
+
+                break;
+            case "live":
+                var embedSkin = {
+                    name: "live_skin",
+                    url: 'live.css'
+                };
+                me.defaultSkin = embedSkin;
+                break;
+            default:
+                console.log('no type found')
+        }
+
+    }
 
 }
 
