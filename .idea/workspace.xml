@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="26c21e2d-be33-4fb6-b890-d01f660fcbf5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.directory" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jwplayer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/player-init-single-video.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/setup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/jwplayer/css/single-page-video.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/jwplayer/css/video_embed.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/jwplayer/css/video_live.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/jwplayer/css/video_x3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/jwplayer/icons/embed_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/jwplayer/icons/embed_icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/jwplayer/icons/embed_icon_autoplay.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/jwplayer/icons/play.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/jwplayer/icons/play_icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/jwplayer/icons/play_icon_.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/jwplayer/icons/play_icon_hover.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/live.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-sportal_test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/open-article.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1iaOzlvkMaRNpg9X3RT0ttcNYnm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="Z:\__DEV_STUFF\sportal-data\jwplayer\assets" />
+      <recent name="Z:\__DEV_STUFF\sportal-data\jwplayer\assets\jwplayer" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.open-article.html">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jwplayer/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="open-article.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jwplayer/open-article.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.open-article.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="26c21e2d-be33-4fb6-b890-d01f660fcbf5" name="Default Changelist" comment="" />
+      <created>1602142515754</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602142515754</updated>
+      <workItem from="1602142520901" duration="11666000" />
+      <workItem from="1602160845558" duration="599000" />
+      <workItem from="1602231631381" duration="13818000" />
+      <workItem from="1602571968497" duration="599000" />
+      <workItem from="1602575236374" duration="7431000" />
+      <workItem from="1602656412510" duration="16951000" />
+      <workItem from="1603697869558" duration="340000" />
+      <workItem from="1603747313931" duration="571000" />
+    </task>
+    <task id="LOCAL-00001" summary="nearly full version 0.0001 ;)">
+      <created>1603747442231</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603747442232</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="nearly full version 0.0001 ;)" />
+    <option name="LAST_COMMIT_MESSAGE" value="nearly full version 0.0001 ;)" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="240" y="118" key="Vcs.Push.Dialog.v2" timestamp="1603747492981">
+      <screen x="0" y="0" width="1280" height="764" />
+    </state>
+    <state x="240" y="118" key="Vcs.Push.Dialog.v2/0.0.1280.764@0.0.1280.764" timestamp="1603747492981" />
+    <state x="616" y="237" key="run.anything.popup" timestamp="1602679770864">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="616" y="237" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1602679770864" />
+  </component>
+</project>

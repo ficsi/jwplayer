@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homepage</title>
+    <base href="">
+
+
+</head>
+<body>
+
+<div data-id='sportal-video-container' id="wrapper-video-singlepage"></div>
+
+<script src="assets/js/setup.js"></script>
+<script>
+    var myPlayer = new JwPlayerCorp('',
+        [
+            {
+                file: 'https://img2.novini.bg/uploads/video/2020-40/00028543.mp4',
+                image: 'https://stayfit305.com/wp-content/uploads/2017/06/DSC_0448.jpg',
+                title: 'Тестово заглавие!',
+                sources: [
+                    {
+                        file: 'https://img2.novini.bg/uploads/video/2020-40/00028543.mp4',
+                        label: 'HD'
+                    },
+                    {
+                        file: 'https://img2.novini.bg/uploads/video/2020-40/00028543.mp4',
+                        label: 'SD'
+                    }
+
+                ]
+            }
+        ]
+    );
+    myPlayer.init();
+    // myPlayer.setStatistic('', videoId);
+    // myPlayer.setErrorMsg('error message here.');
+    myPlayer.setRalated([
+            {
+                title: 'Алпинист: Ураганни ветрове бушуват в района на Еверест',
+                file: 'https://novini.bg/video/20528',
+                image: 'https://img2.novini.bg/uploads/videos_pictures/2018-19/related/20528.jpg'
+            },
+            {
+                title: 'Травматолозите съветват при сняг и лед да ходим с обувки със стабилен грайфер',
+                file: 'https://novini.bg/video/11996',
+                image: 'https://img2.novini.bg/uploads/videos_pictures/2016-01/related/11996.jpg'
+            },
+            {
+                title: 'Матей Казийски категоричен: Няма да се връщам в националния',
+                file: 'https://novini.bg/video/2454',
+                image: 'https://img2.novini.bg/uploads/videos_pictures/2012-25/related/2454.jpg'
+            },
+            {
+                title: 'ДПС гневни: Тази власт е вредна и опасна',
+                file: 'https://novini.bg/video/20402',
+                image: 'https://img2.novini.bg/uploads/videos_pictures/2018-17/related/20402.jpg'
+            },
+            {
+                title: 'Ивайло Московски: Таксите на Дунав мост 2 за България ,трябва да са пет пъти повече',
+                file: 'https://novini.bg/video/3129',
+                image: 'https://img2.novini.bg/uploads/videos_pictures/2012-44/related/3129.jpg'
+            },
+            {
+                title: 'Организират благотворителна детска ръгби академия',
+                file: 'https://novini.bg/video/2458',
+                image: 'https://img2.novini.bg/uploads/videos_pictures/2012-25/related/2458.jpg'
+            },
+            {
+                title: 'Калфин: България &quot;проспива&quot; преговорите за бюджета на ЕС',
+                file: 'https://novini.bg/video/3155',
+                image: 'https://img2.novini.bg/uploads/videos_pictures/2012-44/related/3155.jpg'
+            },
+            {
+                title: 'ВМА с нова операционна зала',
+                file: 'https://novini.bg/video/12105',
+                image: 'https://img2.novini.bg/uploads/videos_pictures/2016-02/related/12105.jpg'
+            },
+            {
+                title: 'ГЕРБ няма да подкрепи законопроекта за тютюнопушенето на Валери Симеонов',
+                file: 'https://novini.bg/video/20529',
+                image: 'https://img2.novini.bg/uploads/videos_pictures/2018-19/related/20529.jpg'
+            }
+        ]);
+    // myPlayer.setAutoplay();
+    // myPlayer.disableFloating();
+</script>
+
+
+</body>
+</html>
